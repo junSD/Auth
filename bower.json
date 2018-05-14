@@ -1,0 +1,24 @@
+{
+  "name": "auth",
+  "authors": [
+    "Sergey <sergiidovgal@gmail.com>"
+  ],
+  "description": "auth",
+  "main": "",
+  "keywords": [
+    "auth"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/app/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

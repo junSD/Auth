@@ -1,0 +1,65 @@
+//adjustment variables
+$footer-height: rem(50px);
+$footer-height-phones: rem(115px);
+$container-width: rem(980px);
+$white: #fff;
+$black: #000;
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-size: rem(16px);
+	line-height: 1.42;
+	-webkit-font-smoothing: antialiased;
+	background-color: $white;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+	min-width: $container-width + rem(10px);
+	}
+
+.wrapper:after {
+	content: "";
+	display: block;
+	height: $footer-height;
+	overflow: hidden;
+}
+
+.maincontent {
+	padding-bottom: $footer-height;
+}
+* {
+	box-sizing: border-box;
+}
+.container {
+	width: $container-width;
+	margin: 0 auto;
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+footer {
+	background: $black;
+	height: $footer-height;
+	width: 100%;
+	margin-top: -$footer-height;
+	position: relative;
+	min-width: $container-width + rem(10px);
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	font-weight: normal;
+}
